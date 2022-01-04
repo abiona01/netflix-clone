@@ -1,0 +1,51 @@
+.container {
+	margin: 5rem 0;
+}
+
+.mainChild {
+	width: 50%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.heading {
+	font-size: 4rem;
+	text-align: center;
+	margin-bottom: 0.8rem;
+}
+
+.subHeading {
+	font-size: 1.5rem;
+}
+
+.inputBox {
+	display: flex;
+	flex-wrap: wrap;
+	height: 3.5rem;
+	width: 100%;
+}
+
+.input {
+	width: 65%;
+	height: 100%;
+	padding: 0.2rem;
+	border: 1px solid rgb(182, 181, 181);
+}
+
+.button {
+	background-color: #d50000;
+	color: white;
+	outline: none;
+	border: none;
+	width: 30%;
+	font-size: 1.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.arrow {
+	margin-left: 0.2rem;
+}
