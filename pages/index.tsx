@@ -1,6 +1,11 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import { Footer } from "../components/Footer";
+import LandingSection1 from "../components/LandingSection1";
+import { LandingSection2 } from "../components/LandingSection2";
+import { LandingSection3 } from "../components/LandingSection3";
+import { LandingSection4 } from "../components/LandingSection4";
 import Main from "../components/Main";
 import Navbar from "../components/Navbar";
 import styles from "../styles/Home.module.css";
@@ -17,6 +22,11 @@ const Home: NextPage = () => {
 			<div className={styles.landing}>
 				<Navbar />
 				<Main />
+				<LandingSection1 />
+				<LandingSection2 />
+				<LandingSection3 />
+				<LandingSection4 />
+				<Footer />
 			</div>
 		</div>
 	);
