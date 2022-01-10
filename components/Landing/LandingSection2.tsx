@@ -1,4 +1,4 @@
-import styles from "../styles/LandingSection2.module.css";
+import styles from "../../styles/LandingSection2.module.css";
 export const LandingSection2 = () => {
 	return (
 		<div className={styles.container}>

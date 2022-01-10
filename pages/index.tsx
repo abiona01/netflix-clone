@@ -1,13 +1,13 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import { Footer } from "../components/Footer";
-import LandingSection1 from "../components/LandingSection1";
-import { LandingSection2 } from "../components/LandingSection2";
-import { LandingSection3 } from "../components/LandingSection3";
-import { LandingSection4 } from "../components/LandingSection4";
-import Main from "../components/Main";
-import Navbar from "../components/Navbar";
+import { Footer } from "../components/Landing/Footer";
+import LandingAccordion from "../components/Landing/LandingAccordion";
+import LandingSection1 from "../components/Landing/LandingSection1";
+import { LandingSection2 } from "../components/Landing/LandingSection2";
+import { LandingSection4 } from "../components/Landing/LandingSection4";
+import Main from "../components/Landing/Main";
+import Navbar from "../components/Landing/Navbar";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -22,10 +22,19 @@ const Home: NextPage = () => {
 			<div className={styles.landing}>
 				<Navbar />
 				<Main />
-				<LandingSection1 />
+				<LandingSection1
+					heading="Enjoy your TV"
+					text="Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+					players, and more."
+				/>
 				<LandingSection2 />
-				<LandingSection3 />
+				<LandingSection1
+					heading="Watch everywhere."
+					text="Stream unlimited movies and TV shows on your phone, tablet, laptop,
+					and TV."
+				/>
 				<LandingSection4 />
+				<LandingAccordion />
 				<Footer />
 			</div>
 		</div>

@@ -1,0 +1,89 @@
+.container {
+	background-color: black;
+	color: white;
+	border-top: 5px solid grey;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.containerChild {
+	width: 60%;
+	text-align: center;
+	padding-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.heading {
+	font-size: 2.9rem;
+	font-weight: bold;
+	margin-bottom: 1.5rem;
+}
+
+.Collapsible {
+	background-color: gray;
+	padding: 1rem 0;
+	margin-bottom: 0.5rem;
+	text-align: start;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+.Collapsible > span {
+	margin-left: 2rem !important;
+}
+
+.collapsibleChild {
+	padding: 0;
+}
+
+.trigger {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 2rem;
+}
+.text {
+	margin-bottom: 1rem;
+	padding: 0 2rem;
+}
+
+.text:first-of-type {
+	border-top: 1px solid black;
+	margin-top: 0.7rem;
+}
+
+.content {
+	width: 60%;
+	text-align: center;
+	margin-bottom: 4rem;
+}
+
+.inputBox {
+	display: flex;
+	flex-wrap: wrap;
+	height: 3.5rem;
+	width: 100%;
+}
+
+.input {
+	width: 65%;
+	height: 100%;
+	padding: 0.2rem;
+	border: 1px solid rgb(182, 181, 181);
+}
+
+.button {
+	background-color: #d50000;
+	color: white;
+	outline: none;
+	border: none;
+	width: 30%;
+	font-size: 1.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.arrow {
+	margin-left: 0.2rem;
+}
