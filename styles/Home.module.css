@@ -1,3 +1,8 @@
+.container {
+	width: 100%;
+	overflow: hidden;
+}
+
 .landing {
 	/* background-image: url("/img/landing.jpg"); */
 	background-repeat: no-repeat;

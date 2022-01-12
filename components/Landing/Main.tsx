@@ -8,7 +8,7 @@ const Main = () => {
 					Unlimited Movies, TV shows, and more.
 				</h2>
 				<p className={styles.subHeading}>Watch anywhere. Cancel anytime</p>
-				<p>
+				<p className={styles.text}>
 					Ready to watch? Enter your email to create or restart your membership.
 				</p>
 				<div className={styles.inputBox}>

@@ -1,5 +1,6 @@
 .container {
 	margin: 5rem 0;
+	width: 100%;
 }
 
 .mainChild {
@@ -48,4 +49,37 @@
 }
 .arrow {
 	margin-left: 0.2rem;
+}
+
+@media screen and (max-width: 480px) {
+	.mainChild {
+		width: 100%;
+	}
+
+	.heading {
+		font-size: 2.4rem;
+	}
+
+	.subHeading {
+		margin-bottom: 0.2rem;
+	}
+
+	.text {
+		margin: 0 0.5rem 0.2rem;
+		text-align: center;
+	}
+
+	.inputBox {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.input {
+		width: 100%;
+	}
+
+	.button {
+		width: 60%;
+		margin: 1rem 0;
+	}
 }

@@ -3,6 +3,7 @@
 	align-items: center;
 	justify-content: space-between;
 	padding: 0 2.7rem;
+	width: 100%;
 }
 
 .item {
@@ -21,4 +22,10 @@
 	border: none;
 	outline: none;
 	border-radius: 4px;
+}
+
+@media screen and (max-width: 480px) {
+	.container {
+		padding: 0 1rem;
+	}
 }

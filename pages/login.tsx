@@ -1,5 +1,6 @@
 import styles from "../styles/SignIn.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const login = () => {
 	return (
@@ -12,7 +13,7 @@ const login = () => {
 				<input className={styles.signinCred} type="email" name="" id="" />
 				<input className={styles.signinCred} type="password" name="" id="" />
 				<button type="submit" className={styles.button}>
-					Sign In
+					<Link href="/browse">Sign In</Link>
 				</button>
 				<div className={styles.loginText}>
 					<div className={styles.check}>
