@@ -1,5 +1,6 @@
 import styles from "../styles/Browse.module.css";
 import Image from "next/image";
+import Link from "next/link";
 const browse = () => {
 	return (
 		<div className={styles.container}>
@@ -30,7 +31,9 @@ const browse = () => {
 						<p>Shayan</p>
 					</div>
 				</div>
-				<button className={styles.button}>Manage Profiles</button>
+				<button className={styles.button}>
+					<Link href="/browse/1">Manage Profiles</Link>
+				</button>
 			</div>
 		</div>
 	);

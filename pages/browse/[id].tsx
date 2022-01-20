@@ -1,4 +1,4 @@
-import styles from "../styles/ManageProfile.module.css";
+import styles from "../../styles/ManageProfile.module.css";
 import Image from "next/image";
 import Link from "next/link";
 const manageProfiles = () => {
@@ -36,7 +36,23 @@ const manageProfiles = () => {
 							<p>Show title of all mature ratings for this profile.</p>
 							<button className={styles.button}>Edit</button>
 						</div>
+						<div className={styles.selectBox} style={{ borderBottom: "none" }}>
+							<p className={styles.label}>Autoplay controls </p>
+							<div className={styles.checkbox}>
+								<input className={styles.check} type="checkbox" name="" id="" />
+								<p>Autoplay next episode in a series on all devices</p>
+							</div>
+							<div className={styles.checkbox}>
+								<input className={styles.check} type="checkbox" name="" id="" />
+								<p>Autoplay previews while browsing on all devices</p>
+							</div>
+						</div>
 					</div>
+				</div>
+				<div className={styles.buttonBox}>
+					<button className={styles.save}>Save</button>
+					<button className={styles.cancel}>Cancel</button>
+					<button className={styles.delete}>Delete Profile</button>
 				</div>
 			</div>
 		</div>
